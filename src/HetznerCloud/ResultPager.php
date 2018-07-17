@@ -59,7 +59,7 @@ class ResultPager implements ResultPagerInterface
 
         while ($this->hasNext()) {
             $next = $this->fetchNext();
-            if(is_array($next)) {
+            if (is_array($next)) {
                 $result = array_merge($result, $next);
             }
         }
