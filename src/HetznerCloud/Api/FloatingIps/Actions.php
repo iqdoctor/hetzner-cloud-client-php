@@ -156,7 +156,7 @@ class Actions extends AbstractApi
         $resolver = $this->createOptionsResolver();
 
         $resolver->setDefined('delete')
-            ->setAllowedTypes('delete', 'boolean');
+            ->setAllowedTypes('delete', 'bool');
 
         return $this->post('/floating_ips/' . $this->encodePath($id) . '/actions/change_protection', $resolver->resolve($parameters));
     }

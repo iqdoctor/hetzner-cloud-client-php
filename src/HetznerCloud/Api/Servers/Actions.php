@@ -296,7 +296,7 @@ class Actions extends AbstractApi
         $resolver = $this->createOptionsResolver();
 
         $resolver->setDefined('upgrade_disk')
-            ->setAllowedTypes('upgrade_disk', 'boolean')
+            ->setAllowedTypes('upgrade_disk', 'bool')
             ->setAllowedValues('upgrade_disk', [true, false]);
 
         $resolver->setRequired('server_type')
@@ -429,10 +429,10 @@ class Actions extends AbstractApi
         $resolver = $this->createOptionsResolver();
 
         $resolver->setDefined('delete')
-            ->setAllowedTypes('delete', 'boolean');
+            ->setAllowedTypes('delete', 'bool');
 
         $resolver->setDefined('rebuild')
-            ->setAllowedTypes('rebuild', 'boolean');
+            ->setAllowedTypes('rebuild', 'bool');
 
         return $this->post('/servers/' . $this->encodePath($id) . '/actions/change_protection', $resolver->resolve($parameters));
     }

@@ -80,7 +80,7 @@ class Servers extends AbstractApi
 
         $resolver->setDefined('start_after_create')
             ->setDefault('start_after_create', true)
-            ->setAllowedTypes('start_after_create', 'boolean')
+            ->setAllowedTypes('start_after_create', 'bool')
             ->setAllowedValues('start_after_create', [true, false]);
 
         $resolver->setRequired('image');
