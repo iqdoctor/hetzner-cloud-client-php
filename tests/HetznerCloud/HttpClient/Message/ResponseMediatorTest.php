@@ -13,13 +13,12 @@ namespace HetznerCloud\Tests\HttpClient\Message;
 
 use GuzzleHttp\Psr7\Response;
 use HetznerCloud\HttpClient\Message\ResponseMediator;
-use PHPUnit\Framework\TestCase;
 
 /**
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>
  * @author Arkadius Stefanski <arkste@gmail.com>
  */
-class ResponseMediatorTest extends TestCase
+class ResponseMediatorTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test

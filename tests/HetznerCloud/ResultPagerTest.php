@@ -17,14 +17,13 @@ use HetznerCloud\Client;
 use HetznerCloud\HttpClient\Plugin\History;
 use HetznerCloud\ResultPager;
 use Http\Client\Common\HttpMethodsClient;
-use PHPUnit\Framework\TestCase;
 
 /**
  * ResultPagerTest.
  *
  * @author Arkadius Stefanski <arkste@gmail.com>
  */
-class ResultPagerTest extends TestCase
+class ResultPagerTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test

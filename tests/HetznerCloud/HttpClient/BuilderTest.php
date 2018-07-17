@@ -17,13 +17,12 @@ use Http\Client\Common\Plugin;
 use Http\Client\HttpClient;
 use Http\Message\RequestFactory;
 use Http\Message\StreamFactory;
-use PHPUnit\Framework\TestCase;
 
 /**
  * @author Fabien Bourigault <bourigaultfabien@gmail.com>
  * @author Arkadius Stefanski <arkste@gmail.com>
  */
-class BuilderTest extends TestCase
+class BuilderTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var Builder

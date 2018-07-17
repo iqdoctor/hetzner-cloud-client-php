@@ -15,13 +15,12 @@ use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use HetznerCloud\HttpClient\Plugin\ApiVersion;
 use Http\Client\Promise\HttpFulfilledPromise;
-use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 
 /**
  * @author Arkadius Stefanski <arkste@gmail.com>
  */
-class ApiVersionTest extends TestCase
+class ApiVersionTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test

@@ -23,14 +23,13 @@ use HetznerCloud\Api\ServerTypes;
 use HetznerCloud\Api\SshKeys;
 use HetznerCloud\Client;
 use HetznerCloud\HttpClient\Plugin\Authentication;
-use PHPUnit\Framework\TestCase;
 
 /**
  * ClientTest.
  *
  * @author Arkadius Stefanski <arkste@gmail.com>
  */
-class ClientTest extends TestCase
+class ClientTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test

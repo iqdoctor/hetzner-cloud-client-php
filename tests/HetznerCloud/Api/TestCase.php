@@ -16,7 +16,7 @@ namespace HetznerCloud\Tests\Api;
  *
  * @author Arkadius Stefanski <arkste@gmail.com>
  */
-abstract class TestCase extends \PHPUnit\Framework\TestCase
+abstract class TestCase extends \PHPUnit_Framework_TestCase
 {
     /**
      * @return string
