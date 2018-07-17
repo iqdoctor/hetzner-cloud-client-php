@@ -1,6 +1,9 @@
 A PHP wrapper to be used with [Hetzner Cloud API](https://docs.hetzner.cloud).
 ==============
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/arkste/hetzner-cloud-client-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/arkste/hetzner-cloud-client-php/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/arkste/hetzner-cloud-client-php/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/arkste/hetzner-cloud-client-php/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/arkste/hetzner-cloud-client-php/badges/build.png?b=master)](https://scrutinizer-ci.com/g/arkste/hetzner-cloud-client-php/build-status/master)
 [![Build Status](https://travis-ci.com/arkste/hetzner-cloud-client-php.svg?branch=master)](https://travis-ci.com/arkste/hetzner-cloud-client-php)
 [![StyleCI](https://styleci.io/repos/141315134/shield?style=flat)](https://styleci.io/repos/141315134)
 [![Latest Stable Version](https://poser.pugx.org/arkste/hetzner-cloud-client-php/v/stable)](https://packagist.org/packages/arkste/hetzner-cloud-client-php)
