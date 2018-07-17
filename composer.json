@@ -44,6 +44,5 @@
             "HetznerCloud\\Tests\\": "tests/HetznerCloud/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "stable"
 }
