@@ -60,28 +60,28 @@ interface ResultPagerInterface
     /**
      * Fetch the next page
      *
-     * @return array
+     * @return array|string
      */
     public function fetchNext();
 
     /**
      * Fetch the previous page
      *
-     * @return array
+     * @return array|string
      */
     public function fetchPrevious();
 
     /**
      * Fetch the first page
      *
-     * @return array
+     * @return array|string
      */
     public function fetchFirst();
 
     /**
      * Fetch the last page
      *
-     * @return array
+     * @return array|string
      */
     public function fetchLast();
 }
