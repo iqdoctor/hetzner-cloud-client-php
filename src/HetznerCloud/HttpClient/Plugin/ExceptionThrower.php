@@ -37,7 +37,7 @@ class ExceptionThrower implements Plugin
                 }
 
                 $remaining = ResponseMediator::getHeader($response, 'RateLimit-Remaining');
-                if (null != $remaining && 1 > $remaining) {
+                if (null !== $remaining && 1 > $remaining) {
                     $limit = ResponseMediator::getHeader($response, 'RateLimit-Limit');
                     $reset = ResponseMediator::getHeader($response, 'RateLimit-Reset');
 
