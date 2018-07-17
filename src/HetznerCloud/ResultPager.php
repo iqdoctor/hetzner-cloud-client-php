@@ -58,7 +58,10 @@ class ResultPager implements ResultPagerInterface
         $result = call_user_func_array([$api, $method], $parameters);
 
         while ($this->hasNext()) {
-            $result = array_merge($result, $this->fetchNext());
+            $next = $this->fetchNext();
+            if(is_array($next)) {
+                $result = array_merge($result, $next);
+            }
         }
 
         return $result;
