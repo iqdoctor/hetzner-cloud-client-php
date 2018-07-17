@@ -87,7 +87,7 @@ $actions = $pager->fetchAll($client->actions(), 'all');
 |-------|-------------------------|
 |1.x    | V1                      |
 
-## Why no >= PHP 7.0 Features?
+## Why no PHP 7.0 Features?
 
 This Library aims to be as compatible as possible, thats why it only needs PHP >= 5.5.9 and depends on very few composer packages.
 
