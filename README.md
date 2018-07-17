@@ -1,6 +1,11 @@
 A PHP wrapper to be used with [Hetzner Cloud API](https://docs.hetzner.cloud).
 ==============
 
+[![Build Status](https://travis-ci.com/arkste/hetzner-cloud-client-php.svg?branch=master)](https://travis-ci.com/arkste/hetzner-cloud-client-php)
+[![StyleCI](https://styleci.io/repos/141315134/shield?style=flat)](https://styleci.io/repos/141315134)
+[![Latest Stable Version](https://poser.pugx.org/arkste/hetzner-cloud-client-php/v/stable)](https://packagist.org/packages/arkste/hetzner-cloud-client-php)
+[![Total Downloads](https://poser.pugx.org/arkste/hetzner-cloud-client-php/downloads)](https://packagist.org/packages/arkste/hetzner-cloud-client-php)
+
 A simple wrapper for the Hetzner Cloud API in PHP.
 
 ## Features
