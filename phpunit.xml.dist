@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         backupGlobals="false"
+         colors="true">
+    <testsuites>
+        <testsuite name="arkste/hetzner-cloud-client-php">
+            <directory>./tests/HetznerCloud/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src/HetznerCloud/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
