@@ -1,5 +1,5 @@
 {
-    "name": "arkste/hetzner-cloud-client-php",
+    "name": "iqdoctor/hetzner-cloud-client-php",
     "description": "Hetzner Cloud Client in PHP",
     "keywords": [
         "hetzner",
@@ -14,6 +14,10 @@
         {
             "name": "Arkadius Stefanski",
             "email": "arkste@gmail.com"
+        },
+        {
+            "name": "IQ Doctor",
+            "email": "s@iqdoctor.pro"
         }
     ],
     "require": {
